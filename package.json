@@ -1,0 +1,31 @@
+{
+  "name": "learn-about-me",
+  "version": "1.0.0",
+  "description": "learn about me web app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexali/learn-about-me.git"
+  },
+  "author": "Aliyu Bello",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "flash-express": "^1.0.4",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.9",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "uuid": "^7.0.3"
+  }
+}

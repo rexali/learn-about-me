@@ -1,0 +1,17 @@
+<%- include ('_header') %>
+<div class="container">
+<h1>Welcome to Learn About Me! <%= ses %>  </h1>
+<% users.forEach(function(user) { %>
+ <div class="panel panel-default">
+ <div class="panel-heading">
+ <a href="/users/<%= user.username %>">
+ <%= user.username %>
+ </a>
+ </div>
+ <% if (user.bio) { %>
+ <div class="panel-body"><%= user.bio %></div>
+ <% } %>
+ </div>
+<% }) %>
+</div>
+<%- include ('_footer') %>
